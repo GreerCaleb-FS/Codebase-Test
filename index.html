@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Base Test</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <h1>Javascript Test Functions</h1>
+    <div id="testContainer">
+      <div class="testItems">
+        <h3>Sum of Array</h3>
+        <input
+          type="text"
+          id="sumArrayInput"
+          placeholder="Please enter an array of whole numbers (e.g. [1,2,3])"
+        />
+        <button onclick="sumOfArray()">Calculate Sum</button>
+        <span id="arrayResult">Result: </span>
+      </div>
+
+      <div class="testItems">
+        <h3>Reverse String</h3>
+        <input
+          type="text"
+          id="reverseStringInput"
+          placeholder="Enter a string"
+        />
+        <button onclick="reverseString()">Reverse</button>
+        <span id="reverseStringResult">Result: </span>
+      </div>
+      <div>
+        <h3>Check Palindrome</h3>
+        <input
+          type="text"
+          id="isPalindromeInput"
+          placeholder="Enter a word or phrase"
+        />
+        <button onclick="isPalindrome()">Check</button>
+        <p>Result: <span id="isPalindromeResult"></span></p>
+      </div>
+
+      <div>
+        <h3>Find Maximum</h3>
+        <input
+          type="text"
+          id="findMaxInput"
+          placeholder="Enter an array e.g. [5,2,9]"
+        />
+        <button onclick="findMax()">Find Max</button>
+        <p>Result: <span id="findMaxResult"></span></p>
+      </div>
+    </div>
+
+    <script src="formApp.js"></script>
+    <script src="testFormApp.js"></script>
+  </body>
+</html>
